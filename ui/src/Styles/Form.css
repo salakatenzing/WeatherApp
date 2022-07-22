@@ -1,0 +1,35 @@
+.search-box {
+    display: flex;
+    margin: 10px;
+    padding: 25px;
+  }
+  
+  .search-box .search-bar {
+    width: 515px;
+    display: block;
+    padding: 15px;
+    color: black;
+    background: none;
+    background-color: rgb(196, 213, 228);
+  
+    border-radius: 10px;
+    box-shadow: 0px 3px rgb(218, 218, 226);
+    transition: 0.5s ease;
+  }
+  
+  .search-box .search-bar:focus {
+    background-color: azure;
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    background: none;
+    background-color: rgb(196, 213, 228);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 3px rgb(218, 218, 226);
+  }
+  
+  button:focus {
+    background-color: azure;
+  }

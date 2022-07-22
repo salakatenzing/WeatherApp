@@ -1,0 +1,16 @@
+.main-header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding: 20px;
+    font-size: 80px;
+  }
+  h1 {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+  }
